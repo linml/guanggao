@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>Title</title>
+    <style>
+        body{
+            font-size: 62.5%;
+            margin: 0;
+            padding: 0;
+        }
+        .download{
+            width: 100%;
+            height: 3rem;
+            position: fixed;
+            top: 0;
+            background: rgba(233, 233, 226,0.2);
+            display: block;
+        }
+        .gameLogo{
+            position: relative;
+            float: left;
+            width: 70%;
+            height: 100%;
+        }
+        .logoImg{
+            float: left;
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            left: 8%;
+            top: 20%;
+        }
+        .logoImg img{
+            width: 100%;
+            height: 100%;
+        }
+        .info{
+            float: right;
+            width: 70%;
+            height: 100%;
+            padding-top: 0.8rem;
+            box-sizing: border-box;
+            font-size: 1rem;
+            color: #fff;
+        }
+        .downloadLogo{
+            position: relative;
+            float: right;
+            width: 30%;
+            height: 100%;
+        }
+        .btn{
+            position: absolute;
+            left: 10%;
+            top: 25%;
+            width: 70%;
+            height: 50%;
+        }
+        .downloadLogo img{
+            float: right;
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="download">
+        <div class="gameLogo">
+            <div class="logoImg">
+                <img src="./imgs/2.jpg" alt="">
+            </div>
+            <span class="info">点击立即下载，下载kk赣州棋牌</span>
+        </div>
+        <div class="downloadLogo">
+            <button class="btn" type="button" >立即下载</button>
+            <img id="close" src="./imgs/x.png" alt="">
+        </div>
+    </div>
+    <script>
+        var btn = document.getElementsByClassName('btn')[0]
+        btn.onclick = function () {
+            window.open("http://weixin.kk10888.com/download/index.html")
+        }
+        var close = document.getElementById('close')
+        var download = document.getElementsByClassName('download')[0]
+        close.onclick = function () {
+            download.style.display = "none"
+            setTimeout(function () {
+                download.style.display = "block"
+            },3000)
+        }
+
+    </script>
+</body>
+</html>
