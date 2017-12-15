@@ -1,0 +1,46 @@
+body {margin: 0;padding: 0;font-family: "微软雅黑";}
+body,html {-webkit-text-size-adjust: none;width: 100%;height: 100%;}
+* {text-decoration: none;list-style: none;}
+img {border: 0px;}
+ul,li,dl,dd,dt,p,ol,h1,h2,h3,h4,h5 {font-size: 15px;font-weight: 100;padding: 0;margin: 0;}
+.wrap {margin: 0 auto;}
+.fl {float: left;}
+.fr {float: right;}
+.x_title{width: 70%;height: 20px;float:left;}
+.index {overflow: hidden;}
+.clr {clear: both;height: 0px;width: 100%;font-size: 1px;line-height: 0px;visibility: hidden;overflow: hidden;}
+.pointer {cursor: pointer;}
+a,input,button {outline: none;}
+::-moz-focus-inner {border: 0px;}
+a {color: #000;}
+.wrapper {clear: both;width: 100%;}
+word-break:break-all
+.floatleft {float: left;}
+.floatright {float: right;}
+.page-container {clear: both;width: 1300px;margin: 0 auto;}
+.page-nav {text-align: center;position: relative;background-color: rgb(240, 240, 240);}
+.nav-help {position: absolute;left: 0px;width: 300px;text-align: center;line-height: 40px;}
+.nav-title {line-height: 40px;font-size: 20px;margin-bottom: 10px;}
+.select-list,.select-list-bottom {width: 160px;margin-left: 20px;background-color: rgb(240, 240, 240);text-align: center;float: left;}
+.select-list li,.select-list-bottom li {background-color: rgb(230, 230, 230);line-height: 50px;margin-top: 26px;}
+.select-list li input,.select-list-bottom li input {margin-right: 10px;}
+.sourcelist {float: left;height: 420px;margin-left: 30px;position: relative;}
+/* 麻将万筒条字花的图片 */
+.wan,.tong,.tiao,.zi,.hua{ height: 80px;clear: both;display: block;width: 550px;}
+.internet-switch{width: 200px;float: right;margin-right: 80px;}
+.internet-switch h2{font-size: 18px;line-height: 20px;margin-top: 30px;}
+.internet-switch li{line-height: 60px;}
+/*目的的div*/
+.targetlist{float: left;height: 300px;margin-left: 30px;position: relative;}
+.target-div{width: 55px;height: 78px;float: left;margin-left: 3px;border: 1px solid #888;}
+.target-div-top{width: 55px;height: 78px;float: left;margin-left: 0px;border: 1px solid #888;}
+/*东南西北*/
+.east,.south,.west,.north{clear: both;display: block;height: 80px;width: 800px; margin-bottom: 3px;}
+.doc{width: 200px;float: right;margin-right: 20px; }
+.doc h2{font-size: 18px;line-height: 20px;margin-top: 10px;}
+.doc li{line-height: 60px;}
+#selectnet{ width:110px;height:40px;font-size:14px;border-radius:8px; outline: medium none;text-align: center;}
+.newImg{margin-left: 4px;position: absolute; }
+.newImgtop{position: absolute;}
+.mask{width:495px;height: 82px;background-color:rgba(1,1,1,0.5);position:absolute;z-index: 10;}
+
